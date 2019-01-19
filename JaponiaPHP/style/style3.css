@@ -1,0 +1,35 @@
+@media all
+{
+
+summary
+{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: red;
+}
+span.tytul
+	{
+		font-weight: bold;
+		font-size: 20px;
+		font-family: "Courier New", Courier, monospace;
+		color: black;
+	}
+span.poboczne
+	{
+		font-family: 'Permanent Marker', cursive;
+		font-size: 16px;
+		color: red;
+	}
+#helpText
+{
+	font-size: 25px;
+	color: red;
+	font-weight: bold;
+}
+input:checked, option:checked 
+{ 
+	margin-right: 20px;
+}
+
+}

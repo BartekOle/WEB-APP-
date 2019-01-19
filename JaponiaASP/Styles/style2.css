@@ -1,0 +1,105 @@
+@media all
+{
+h1 {
+		text-align: center;
+		text-shadow: 1px 1px 15px hsla(244, 100%, 50%, 0.8);
+   }
+h2 {
+		text-align: center;
+		text-shadow: 1px 1px 5px hsla(0, 99%, 42%, 1.0); 
+   }
+
+   nav
+	{
+		line-height: 150%;
+	}
+
+   
+#flaga
+   {
+	float:left;
+   }
+   
+table, th, td {
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  font-size: 25px;
+}
+table
+	{
+		 width: 70%;
+	}
+th {
+    background-color: hsla(51, 100%, 50%, 0.8);
+    color: hsla(0, 100%, 50%, 1.0);
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+caption
+	{
+		font-size: 40px;
+		font-family: Impact, Charcoal, sans-serif;
+		color: hsla(25, 76%, 31%, 0.75);
+	}
+td {
+	color: hsla(80, 60%, 35%, 0.9);
+	text-align: center;
+}
+#zmiana
+{
+	position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto
+}
+#zmiana img {
+	position:absolute;
+  left:0;
+    -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+	}
+#zmiana img.top:hover
+{
+	opacity:0;
+}
+
+#akiba
+   {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+   }
+	
+IMG.right {
+    float:right;
+		-webkit-transition: -webkit-transform 3s;
+	-moz-transition: -moz-transform 3s;
+	-o-transition: -o-transform 3s;
+	transition: transform 3s;
+	}
+IMG.right:hover
+{
+	-webkit-transform: scale(2, 2);
+	-moz-transform: scale(2, 2);
+	-o-transform: scale(2, 2);
+	transform: scale(2, 2);
+}
+
+p
+	{
+	 margin: 8px;
+	 font-style: italic;
+	}
+div:target {
+    background-color: #DC143C;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+}

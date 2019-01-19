@@ -1,0 +1,28 @@
+#blad
+		   {
+			background-color: #b00020;
+			border: none;
+			color: white;
+			padding: 137px 268px;
+			text-align: center;
+			font-size: 14px;
+			font-weight: bold;
+			position: absolute;
+			top: 40%;
+			left: 30%;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		   }
+#poprawne
+		   {
+			background-color: #6200ee;
+			border: none;
+			color: white;
+			padding: 137px 268px;
+			text-align: center;
+			font-size: 14px;
+			font-weight: bold;
+			position: absolute;
+			top: 40%;
+			left: 30%;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		   }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "PL">
+	<head>
+		<meta charset = "utf-8">
+		<title>Japonia - Formularz osobowy</title>
+		<meta name = "leywords" content = "strona internetowa, formularz, osobowy, imie, nazwisko. miesiac urodzenia, email, telefon">
+		<meta name = "description" content = " Formularz osobowy dla strony o Japonii. Gdzie podajemy imię, nazwisko, miesiąc urodzenia, email oraz numer telefonu.">
+		<link rel="stylesheet" type="text/css" href="style/style3.css" />
+		<link rel="stylesheet" type="text/css" href="style/style6.css" />
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		
+	</head>
+	<body>
+		<details>
+			<summary>Rejestracja</summary>
+			<form method = "post" action = "form.php" autocomplete = "on">`
+				<div><label><span class ="tytul">Nazwa uzytkownika:</span>
+				<input type = "text" name = "nazwau" size = "30"  autofocus /><span class ="poboczne">(Typ danych: Tekst maksymalnine 30 znaków)</span>
+				</label></div>
+				<div><label><span class ="tytul">Haslo:</span>
+				<input type = "text" name = "haslo" size = "25" /><span class ="poboczne">(Typ danych: Tekst minamlnie 6 znakow maksymalnie 20)</span>
+				</label></div>
+				<div><label><span class ="tytul">Imie:</span>
+				<input type = "text" name = "imie" size = "30"  autofocus /><span class ="poboczne">(Typ danych: Tekst maksymalnine 30 znaków)</span>
+				</label></div>
+				<div><label><span class ="tytul">Nazwisko:</span>
+				<input type = "text" name = "nazwisko" size = "30" /><span class ="poboczne">(Typ danych: Tekst maksymalnine 30 znaków)</span>
+				</label></div>
+				<div><label><span class ="tytul">Miesiąć Urodzenia:</span>
+					<select name = "miesiac">
+						<option>Styczen</option>
+						<option>Luty</option>
+						<option>Marzec</option>
+						<option>Kwiecien</option>
+						<option>Maj</option>
+						<option>Czerwiec</option>
+						<option>Lipiec</option>
+						<option>Sierpien</option>
+						<option>Wrzesień</option>
+						<option>Pazdziernik</option>
+						<option>Listopad</option>
+						<option>Grudzien</option>
+					</select>
+					<span class ="poboczne">(Wybór miesiąca)</span>
+				</label></div>
+				<div><label><span class ="tytul">Email:</span>
+				<input type = "text" name = "email" /><span class ="poboczne">(Musi zawierać @)</span>
+				</label></div>
+				<div><label><span class ="tytul">Telefon:</span>
+				<input type = "text" name = "telefon" /><span class ="poboczne">((555) 555-5555)</span>
+				</label></div>
+				<div><label><span class ="tytul">Co lubisz w Japonii:</span></label></div>
+				<div><label><input type ="checkbox" name ="lubi[]" value = "Jezyk"> Jezyk
+				<input type ="checkbox" name ="lubi[]" value = "Jedzenie"> Jedzenie
+				<input type ="checkbox" name ="lubi[]" value = "Kulture"> Kulture
+				<input type ="checkbox" name ="lubi[]" value = "Krajobraz"> Krajobraz
+				<input type ="checkbox" name ="lubi[]" value = "Ludzi"> Ludzi
+				</label></div>
+				<p>
+					<input type = "submit" name = "submit" onclick = "formularzwyk()" value = "Submit">
+					<input type = "reset" onclick = "formularzwyczy()" value = "Clear">
+				</p>
+			</form>
+		</details>
+		<a href = "login.php"><img src="obrazki/powrot.png"  height="300" width="300"  alt="Powrot do logowania"  /></a>
+		
+		
+		
+	<footer>
+
+	<hr />
+
+	<ul>
+
+		<li >
+
+			<strong>Autor:</strong> Bartłomiej Olejniczak <strong>||</strong>
+
+			<a href="mailto:dios1415@gmail.com">Kontakt-Mail</a>
+
+	</ul>
+
+	<hr />
+
+	</footer>
+	</body>
+</html>

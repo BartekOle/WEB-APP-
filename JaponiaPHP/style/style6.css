@@ -1,0 +1,34 @@
+@media all
+{
+ body
+   {
+		background-image: url("../obrazki/tlo.jpg");
+		background-repeat: initial;
+   }
+ a:visited 
+	{ 
+		color: orange; 
+	}
+a:hover 
+	{ 
+		color: #DC143C; 
+	}
+a:active
+	{ 
+		color: #008000; 
+	}
+a:focus
+	{ 
+		color: #FFD700; 
+	}
+span
+	{
+		font-size: 0.6em;
+		height: 1em;
+	}
+.super
+	{
+		position: relative;
+		top: -1ex;
+	}
+}

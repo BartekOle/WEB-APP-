@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "PL">
+	<head>
+		<meta charset = "utf-8">
+		<title>Test Bazy Danych</title>
+		<meta name = "leywords" content = "strona internetowa, formularz, osobowy, imie, nazwisko. miesiac urodzenia, email, telefon">
+		<meta name = "description" content = " Formularz osobowy dla strony o Japonii. Gdzie podajemy imię, nazwisko, miesiąc urodzenia, email oraz numer telefonu.">
+		<link rel="stylesheet" type="text/css" href="style/style3.css" />
+		<link rel="stylesheet" type="text/css" href="style/style6.css" />
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		
+	</head>
+	<body>
+		<details>
+			<summary>Test SQL</summary>
+			<form method = "post" action = "testsql.php" autocomplete = "on">`
+				<div><label><span class ="tytul">Nazwa uzytkownika:</span>
+				<input type = "text" name = "nazwau" size = "30"  autofocus /><span class ="poboczne">(Podaj nazwe uzytkownika, ktorego chcesz wyswietlic dane. All - jesli wszystkich)</span>
+				</label></div>
+				<div><label><span class ="tytul">Select:</span>
+					<select name = "select">
+						<option>Wszystko</option>
+						<option>NazwaU</option>
+						<option>Haslo</option>
+						<option>Imie</option>
+						<option>Nazwisko</option>
+						<option>MiesiacU</option>
+						<option>Email</option>
+						<option>Telefon</option>
+						<option>CoLubi</option>
+					</select>
+					<span class ="poboczne">(Wybór miesiąca)</span>
+				</label></div>
+				<p>
+					<input type = "submit" name = "submit" onclick = "formularzwyk()" value = "Submit">
+					<input type = "reset" onclick = "formularzwyczy()" value = "Clear">
+				</p>
+			</form>
+		</details>
+		<a href = "index.php"><img src="obrazki/powrot.png"  height="300" width="300"  alt="Powrot do menu"  /></a>
+		
+		
+	<footer>
+
+	<hr />
+
+	<ul>
+
+		<li >
+
+			<strong>Autor:</strong> Bartłomiej Olejniczak <strong>||</strong>
+
+			<a href="mailto:dios1415@gmail.com">Kontakt-Mail</a>
+
+	</ul>
+
+	<hr />
+
+	</footer>
+	</body>
+</html>

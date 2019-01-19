@@ -1,0 +1,172 @@
+@media all
+{
+meter {  
+     width: 300px;  
+     height: 25px;  
+   }  
+h1 {
+		text-align: center;
+   }
+   
+h2 {
+		text-align: center;
+   }
+section
+	{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.25em;
+	}
+article
+	{
+		font-family: Georgia, serif;
+		font-size: 16px;
+	}
+nav
+	{
+		line-height: 150%;
+	}
+
+#katakana
+   {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-box-shadow: 0px 23px 110px 10px rgba(143,8,8,0.63);
+	-moz-box-shadow: 0px 23px 110px 10px rgba(143,8,8,0.63);
+	box-shadow: 0px 23px 110px 10px rgba(143,8,8,0.63);
+	animation: movingImage linear 10s 2 1s alternate;
+	
+   }
+   @keyframes movingImage{
+   
+	   0% {opacity: 0; left: 50px; top: 0px;}
+	   25% {opacity: 1; left: 0px; top: 50px;}
+	   50% {opacity: 0; left: 50px; top: 100px;}
+	   75% {opacity: 1; left: 100px; top: 50px;}
+	   100% {opacity: 0; left: 50px; top: 0px;}
+   }
+IMG.right {
+    float:right;
+	-webkit-box-shadow: 0px 23px 110px 10px rgba(143,8,8,0.63);
+	-moz-box-shadow: 0px 23px 110px 10px rgba(143,8,8,0.63);
+	box-shadow: 0px 23px 110px 10px rgba(143,8,8,0.63);
+	-webkit-transition: -webkit-transform 3s;
+	-moz-transition: -moz-transform 3s;
+	transition: transform 3s;
+	
+	}
+IMG.right:hover
+{
+	-webkit-transform: scale(2, 2);
+	-moz-transform: scale(2, 2);
+	-o-transform: scale(2, 2);
+	transform: scale(2, 2);
+}
+  
+table, th, td {
+   border: 1px solid black;
+   text-align: center;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+tr:nth-child(even) {
+	
+	background: -webkit-gradient(linear, center top, center bottom, color stop(20%, rgba(249, 63, 126, 0.2)),  color stop(50%, rgba(11, 0, 193, 0.2)), color stop(75%, rgba(86, 255, 50, 0.2)));
+	background: -moz-linear-gradient(top center, rgba(249, 63, 126, 0.2) 20%, rgba(11, 0, 193, 0.2) 50%, rgba(86, 255, 50, 0.2) 75%);
+	background: linear-gradient(to bottom, rgba(249, 63, 126, 0.2) 20%, rgba(11, 0, 193, 0.2) 50%, rgba(86, 255, 50, 0.2) 75%);
+	}
+tr:nth-child(odd) {
+	
+	background: -webkit-gradient(linear, center top, center bottom, color stop(20%,rgba(86, 255, 50, 0.2)),  color stop(50%, rgba(11, 0, 193, 0.2)), color stop(75%, rgba(249, 63, 126, 0.2)));
+	background: -moz-linear-gradient(top center, rgba(86, 255, 50, 0.2) 20%, rgba(11, 0, 193, 0.2) 50%, rgba(249, 63, 126, 0.2) 75%);
+	background: linear-gradient(to bottom, rgba(86, 255, 50, 0.2) 20%, rgba(11, 0, 193, 0.2) 50%, rgba(249, 63, 126, 0.2) 75%);
+	}
+aside
+	{
+		animation-duration: 5s;
+		animation-name: slidein;
+		font-size: larger; 
+		font-weight: bold; 
+		color: rgba(0,0,255, 0.8); 
+		float: right;
+        width: 200px;
+		background: -webkit-radial-gradient(closest-side at 50% 50%, rgba(86, 255, 50, 0.2), rgba(249, 63, 126, 0.2),  rgba(255, 254, 75, 0.2));
+		background: -moz-radial-gradient(closest-side at 50% 50%, rgba(86, 255, 50, 0.2), rgba(249, 63, 126, 0.2),  rgba(255, 254, 75, 0.2));
+		background: radial-gradient(closest-side at 50% 50%, rgba(86, 255, 50, 0.2), rgba(249, 63, 126, 0.2),  rgba(255, 254, 75, 0.2));
+	}
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.highlighted 
+{
+	background-color: red;
+}
+.newattr
+{
+}
+mark
+	{
+		background-color: rgba(127,255,0, 0.8);
+		font-weight: bold; 
+	}
+.flexbox
+{
+	width: 1000px;
+	height: 400px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+.flexbox > div
+{
+	-webkit-transition: 1s ease-out;
+	transition: 1s ease-out;
+	-webkit-border-radius: 10px;
+	border: 2px solid black;
+	width: 200px;
+	margin: 10px 10px 10px 0px;
+	padding: 20px 20px 20px 20px;
+	box-shadow: 10px 10px 10px red;
+	font-size: 12px;
+}
+.flexbox > div:nth-child(1){ background-color: lightgreen;}
+.flexbox > div:nth-child(2){ background-color: lightgreen;}
+.flexbox > div:nth-child(3){ background-color: lightgreen;}
+.flexbox > div:nth-child(4){ background-color: lightgreen;}
+.flexbox > div:hover {
+	 width: 250px;  font-weight: bold; font-size: 15px;
+}
+.flexbox > div:nth-child(1):hover { background-color: royalblue;}
+.flexbox > div:nth-child(2):hover { background-color: darkgreen;}
+.flexbox > div:nth-child(3):hover { background-color: yellow;}
+.flexbox > div:nth-child(4):hover { background-color: #FFB6C1;}
+	
+p
+{
+	 margin: 8px;
+}
+
+input:checked, option:checked 
+	{ 
+		margin-right: 20px;
+	}
+}
+
+@media print
+{
+p
+{
+	 margin: 15px;
+}
+}
