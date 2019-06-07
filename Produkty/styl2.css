@@ -1,0 +1,28 @@
+#pow
+		   {
+			background-color: #6200ee;
+			border: none;
+			color: white;
+			padding: 44px 84px;
+			text-align: center;
+			font-size: 14px;
+			font-weight: bold;
+			position: absolute;
+			top: 70%;
+			left: 40px;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		   }
+#dal
+		   {
+			background-color: #6200ee;
+			border: none;
+			color: white;
+			padding: 44px 84px;
+			text-align: center;
+			font-size: 14px;
+			font-weight: bold;
+			position: absolute;
+			top: 68%;
+			left: 1400px;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		   }
